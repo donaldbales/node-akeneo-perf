@@ -1,0 +1,46 @@
+{
+  "name": "node-akeneo-perf",
+  "version": "0.0.1",
+  "description": "Test the performance of Akeneo PIM's web API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donaldbales/node-akeneo-perf.git"
+  },
+  "keywords": [
+    "akeneo",
+    "pim",
+    "performance",
+    "web",
+    "api"
+  ],
+  "author": "Donald J. Bales",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@types/bunyan": "^1.8.6",
+    "@types/minimist": "^1.2.0",
+    "@types/mysql": "^2.15.21",
+    "@types/node": "12.20.55",
+    "@types/nodemailer": "^4.6.6",
+    "@types/tedious": "^4.0.9",
+    "bunyan": "^1.8.12",
+    "change-case": "^4.1.1",
+    "minimist": "^1.2.7",
+    "mysql": "^2.18.1",
+    "node-akeneo-api": "/Users/don/work/node-akeneo-api",
+    "nodemailer": "^6.8.0",
+    "tedious": "13.2.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "3.9.10"
+  },
+  "bugs": {
+    "url": "https://github.com/donaldbales/node-akeneo-perf/issues"
+  },
+  "homepage": "https://github.com/donaldbales/node-akeneo-perf#readme"
+}

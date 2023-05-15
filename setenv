@@ -1,0 +1,31 @@
+export AKENEO_BASE_URL="http://pimee6-ubuntu-20-215.donaldbales.com"
+
+export AKENEO_CLIENT_ID=1_452z8zq3bvgggskw4cgw8os44c84gscws08gs048w84scc0kw8
+export AKENEO_SECRET=4sd1g5vml3qc0s80k80ooogoc8s8okc0cwk084osokgsog4kg0
+export AKENEO_USERNAME=node_4838
+export AKENEO_PASSWORD=676f16224
+
+export AKENEO_RDBMS_DRIVER=sqlmy
+
+export MYSQL_USER=akeneo_pim
+export MYSQL_PASSWORD=akeneo_pim
+export MYSQL_DATABASE=akeneo_pim
+export MYSQL_HOST=10.0.0.21
+export MYSQL_PORT=3306
+#export MYSQL_SSL_CA=
+export MYSQL_SSL_VERIFY_SERVER_CERT=false
+
+export EMAIL_FROM=don@donaldbales.com
+export EMAIL_HOST=localhost
+export EMAIL_PORT=25
+export EMAIL_TO=don@donaldbales.com
+
+export LOG_LEVEL=info
+
+export AKENEO_EXPORT_PATH=data
+mkdir -p $AKENEO_EXPORT_PATH
+
+export PID_PATH=$AKENEO_EXPORT_PATH
+
+export AKENEO_PROMISE_LIMIT=144
+export AKENEO_GET_LIMIT=10000;
